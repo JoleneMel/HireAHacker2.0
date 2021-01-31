@@ -1,0 +1,768 @@
+.home_Contact {
+    background-image: url("tech-wallpaper2.0.1.png");
+    background-repeat: repeat-y;
+    background-size: 100%;
+}
+
+/* menu style styles*/
+.menu {
+    padding: 10px;
+    text-align: center;
+    text-emphasis-color: azure;
+    font-size: 30px;
+    background-color:black;
+    opacity: 70%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* It hovers over and focuses on only that once hovered. */
+.menu:hover {
+    color: hotpink; 
+    background-color:white; 
+
+} 
+
+
+/* a-achor has to have its color changed within its own block, as well as the padding/spacing issue that was fixed with this */
+a {
+    color: azure;
+    /* this ensures all my txt has space to not be so cluttered together  */
+    padding: 24px;
+}
+
+/* when the mouse is hovered over the links */
+a:hover {
+    color: hotpink;
+    /* background-color:white; */
+    /* so the padding looks like it has a small underline */
+    padding-bottom: 8px;
+}
+
+/* added this to help make everthing more pleasing to the eye without being too distracting */
+.header {
+    /* padding is one of my fave options, more cushion for pushing! */
+    padding: 5px;
+    text-align: center;
+    /* But this looks more pleasing to the eyes */
+    color:rgba(147, 192, 206, 0.9);
+    font-size: 25px;
+    /* THIS MAKES IT SO THE TEXT WONT BE AFFECTED BY A SEMI TRANSULENT BACKGROUND COLOR! Better than  */
+    background: rgba(6, 1, 43, 0.5);
+}
+
+/* created the continued background to make it more pleasing to the eyes */
+.hackerbanner {
+    float:center;
+    height: 300px;
+    padding-bottom: 30px;
+    /* to connect everything nicely to the eyes  */
+    background: rgba(6, 1, 43, 0.5);
+}
+
+/* intro page page home */
+#spooky_Intro {
+    text-align: center;
+    font-size: 35px;
+    font-style: italic;
+    font-weight: bolder;
+    color: azure;
+    text-shadow: 3px 3px gray;
+    background-color: rgba(126, 243, 225, 0.3); 
+    background-repeat: repeat;
+}
+
+/* wanted this to look ver out of place to draw the eye to it */
+.welcome_Mortals {
+    color:linen; 
+    text-align: center;
+    font-size: 25px;
+    background-color:rgba(6, 1, 43, 0.66);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/* simple about us add on */
+.about_US {
+    text-align: center;
+    font-size: 20px;
+    color: azure;
+    background-color: rgba(6, 1, 43, 0.7);
+    font-family: monospace;
+    height: 850px;
+    border: 15px dotted rgb(89, 70, 97);
+    margin: 1px;
+    padding:25px;
+}
+
+/* page two hacker color corinated to the hackers c:  */
+
+
+/* spamBot icon order! this helps keep everthing more intetesting more to see and more organized. */
+
+/* on top of profile pictures  */
+#usernameSB {
+    color:lightpink; 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted hotpink;
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(158, 16, 70, 0.5);
+}
+
+/* the profile picture with background matching everything */
+#profile_SB {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted hotpink;
+    background-color: rgba(158, 16, 70, 0.5); 
+}
+
+/* under the profile picture with its own box  */
+.tag_lineSB{
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted hotpink;
+    margin: 1px;
+    background-color: rgba(158, 16, 70, 0.5); 
+    }
+
+/* to create a layer on top of the info */
+ .headlineSB {
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted hotpink;
+    margin: 1px;
+    padding:10px;
+    background-color: rgba(158, 16, 70, 0.5); 
+}
+
+/* to ensure everything floats to the left */
+.IconSB {
+    float: left;
+}
+
+/* the info needed to be on the left */
+.infoSB {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted hotpink;
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(158, 16, 70, 0.5); 
+}
+
+/* color is within this so doesnt need to be repeated as often. */
+.row {
+    display: inline-block;
+    color:lightpink; 
+    text-align: left;
+}
+
+/* services section */
+.servicesSB {
+    font-size: 20px;
+    height: 445px;
+    border: 5px dotted hotpink;
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(158, 16, 70, 0.5); 
+    display: inline-block;
+    color:lightpink; 
+    text-align: center;
+}
+
+
+/* cosmic_lock&key */
+
+#usernameCLK {
+    color:lightgreen; 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted rgb(0, 207, 28);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(13, 90, 6, 0.5);
+}
+
+#profile_CLK {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted rgb(0, 207, 28);
+    background-color:  rgba(13, 90, 6, 0.5); 
+}
+
+
+.tag_lineCLK{
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted rgb(0, 207, 28);
+    margin: 1px;
+    background-color: rgba(13, 90, 6, 0.5); 
+    }
+
+ .headlineCLK {
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(0, 207, 28);;
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(13, 90, 6, 0.5);
+}
+
+.IconCLK {
+    float: left;
+}
+
+.infoCLK {
+    float: right;
+    text-align: center;
+    font-size: 18.5px;
+    height: 350px;
+    border: 5px dotted rgb(0, 207, 28);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(13, 90, 6, 0.5); 
+}
+
+.rowCLK {
+    display: inline-block;
+    color:lightgreen; 
+    text-align: left;
+}
+
+.servicesCLK {
+    font-size: 20px;
+    height: 445px;
+    border: 5px dotted rgb(0, 207, 28);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(13, 90, 6, 0.5); 
+    display: inline-block;
+    color:lightgreen; 
+    text-align: center;
+}
+
+
+
+
+
+/* librarian!!! */
+
+#usernameTL {
+    color:lightblue; 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted rgb(0, 87, 250);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(57, 0, 122, 0.5);
+}
+
+#profile_TL {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted rgb(0, 87, 250);
+    background-color:  rgba(57, 0, 122, 0.5); 
+}
+
+
+.tag_lineTL{
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted rgb(0, 87, 250);
+    margin: 1px;
+    background-color: rgba(57, 0, 122, 0.5); 
+    }
+
+ .headlineTL {
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(0, 87, 250);
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(57, 0, 122, 0.5);
+}
+
+.IconTL {
+    float: left;
+}
+
+.infoTL {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(0, 87, 250);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(57, 0, 122, 0.5); 
+}
+
+.rowTL {
+    display: inline-block;
+    color:lightblue; 
+    text-align: left;
+}
+
+.servicesTL {
+    font-size: 20px;
+    height: 445px;
+    border: 5px dotted rgb(0, 87, 250);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(57, 0, 122, 0.5); 
+    display: inline-block;
+    color:lightblue; 
+    text-align: center;
+}
+
+
+/* masked null hacker  */
+
+#usernameMN {
+    color:lightcoral; 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted rgb(224, 0, 0);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(182, 21, 0, 0.5);
+}
+
+#profile_MN {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted rgb(224, 0, 0);
+    background-color:  rgba(182, 21, 0, 0.5);
+}
+
+
+.tag_lineMN {
+    color: lightcoral;
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted rgb(224, 0, 0);
+    margin: 1px;
+    background-color: rgba(182, 21, 0, 0.5);
+    }
+
+ .headlineMN {
+     color: lightcoral;
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(224, 0, 0);
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(182, 21, 0, 0.5);
+}
+
+.IconMN {
+    color: lightcoral;
+    float: left;
+}
+
+.infoMN {
+    float: right;
+    text-align: center;
+    font-size: 18.5px;
+    height: 350px;
+    border: 5px dotted rgb(224, 0, 0);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(182, 21, 0, 0.5);
+}
+
+.rowMN {
+    display: inline-block;
+    color:lightcoral; 
+    text-align: left;
+}
+
+.servicesMN {
+    font-size: 20px;
+    height: 445px;
+    border: 5px dotted rgb(224, 0, 0);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(182, 21, 0, 0.5);
+    display: inline-block;
+    color:lightcoral; 
+    text-align: center;
+}
+
+
+/* info_hackpurr!!! */
+
+#usernameIHP {
+    color:rgb(219, 158, 243); 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted rgb(158, 0, 221);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(135, 0, 153, 0.5);
+}
+
+#profile_IHP {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted rgb(158, 0, 221);
+    background-color:  rgba(135, 0, 153, 0.5);
+}
+
+
+.tag_lineIHP{
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted rgb(158, 0, 221);
+    margin: 1px;
+    background-color: rgba(135, 0, 153, 0.5);
+    }
+
+ .headlineIHP {
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(158, 0, 221);
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(135, 0, 153, 0.5);
+}
+
+.IconIHP {
+    float: left;
+}
+
+.infoIHP {
+    float: right;
+    text-align: center;
+    font-size: 18.5px;
+    height: 350px;
+    border: 5px dotted rgb(158, 0, 221);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(135, 0, 153, 0.5);
+}
+
+.rowIHP {
+    display: inline-block;
+    color:rgb(219, 158, 243); 
+    text-align: left;
+}
+
+.servicesIHP {
+    font-size: 20px;
+    height: 445px;
+    border: 5px dotted rgb(158, 0, 221);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(135, 0, 153, 0.5);
+    display: inline-block;
+    color:rgb(219, 158, 243);
+    text-align: center;
+}
+
+
+
+/* The_Executor page */
+
+#usernameTE {
+    color:rgb(169, 188, 207); 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted rgb(89, 70, 97);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#profile_TE {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted rgb(89, 70, 97);
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+
+.tag_lineTE{
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted rgb(89, 70, 97);
+    margin: 1px;
+    background-color: rgba(0, 0, 0, 0.5);
+    }
+
+ .headlineTE {
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(89, 70, 97);
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+.IconTE {
+    float: left;
+}
+
+.infoTE {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(89, 70, 97);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rowTE {
+    display: inline-block;
+    color:rgb(169, 188, 207);  
+    text-align: left;
+}
+
+.servicesTE {
+    font-size: 20px;
+    height: 200px;
+    border: 5px dotted rgb(89, 70, 97);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    color:rgb(169, 188, 207); 
+    text-align: center;
+}
+
+/* the glitch!!! */
+
+#usernameG {
+    color:lightgoldenrodyellow; 
+    text-align: left;
+    font-size: 25px;
+    width: fit-content;
+    border: 5px dotted rgb(208, 223, 0);
+    padding: 10px;
+    margin: 3px;
+    background-color: rgba(128, 115, 0, 0.5);
+}
+
+#profile_G {
+    /* background-image: url("$p@mB0T.png"); */
+    height: 400px;
+    border: 5px dotted rgb(208, 223, 0);
+    background-color:  rgba(128, 115, 0, 0.5);
+}
+
+
+.tag_lineG{
+    font-size: 30px;
+    float: left;
+    height: 35px;
+    border: 5px dotted rgb(208, 223, 0);
+    margin: 1px;
+    background-color: rgba(128, 115, 0, 0.5);
+    }
+
+ .headlineG {
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(208, 223, 0);
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(128, 115, 0, 0.5);
+}
+
+.IconG {
+    float: left;
+}
+
+.infoG {
+    float: right;
+    text-align: center;
+    font-size: 18.5px;
+    height: 350px;
+    border: 5px dotted rgb(208, 223, 0);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(128, 115, 0, 0.5);
+}
+
+.rowG {
+    display: inline-block;
+    color:lightgoldenrodyellow;
+    text-align: left;
+}
+
+.servicesG {
+    font-size: 20px;
+    height: 200px;
+    border: 5px dotted rgb(208, 223, 0);
+    margin: 1px;
+    padding:25px;
+    background-color: rgba(128, 115, 0, 0.5);
+    display: inline-block;
+    color:lightgoldenrodyellow; 
+    text-align: center;
+}
+
+/* contact page */
+
+.headlineCHH {
+    color: ivory;
+    text-align:center;
+    font-size:25px;
+    float: center;
+    height: 25px;
+    border: 5px dotted rgb(89, 70, 97);
+    margin: 1px;
+    padding:10px;
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+
+#profile_CHH {
+    float: center;
+    height: 500px;
+    border: 15px dotted rgb(89, 70, 97);
+    background-color:  rgba(0, 0, 0, 0.5);
+}
+.menuCHH {
+    padding: 10px;
+    text-align: center;
+    text-emphasis-color: azure;
+    font-size: 30px;
+    background-color:black;
+    opacity: 70%;
+    margin: 1px;
+    padding:5px;
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.menuCHH:hover {
+    color: hotpink; 
+    background-color:white; 
+    /* so the padding looks like it has a small underline */
+     padding-bottom: 8px;
+}
+
+.contactHead_Hunter {
+    text-align: center;
+    font-size: 20px;
+    color: azure;
+    background-color: rgba(6, 1, 43, 0.7);
+    font-family: monospace;
+    height: 300px;
+    border: 11px dotted rgb(89, 70, 97);
+    margin: 1px;
+    padding:5px;
+    padding-top: 5px;
+}
+
+.contact_infoSB {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted hotpink;
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(158, 16, 70, 0.5); 
+}
+
+#larger{
+    font-size: 25px;
+}
+
+.contact_infoCLK {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(0, 207, 28);
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(13, 90, 6, 0.5); 
+}
+
+.contact_infoTL {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(0, 87, 250);
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(57, 0, 122, 0.5); 
+}
+
+.contact_infoMN {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(224, 0, 0);
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(182, 21, 0, 0.5);; 
+}
+
+.contact_infoIHP {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(158, 0, 221);
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(135, 0, 153, 0.5); 
+}
+
+.contact_infoTE {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(89, 70, 97);
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
+.contact_infoG {
+    float: right;
+    text-align: center;
+    font-size: 20px;
+    height: 350px;
+    border: 5px dotted rgb(208, 223, 0);
+    margin: 10px;
+    padding:25px;
+    background-color: rgba(128, 115, 0, 0.5); 
+}
