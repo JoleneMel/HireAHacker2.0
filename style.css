@@ -6,36 +6,89 @@
 
 /* menu style styles*/
 .menu {
-    padding: 10px;
+    padding: 2%;
+
     text-align: center;
-    text-emphasis-color: azure;
-    font-size: 30px;
+    font-size: 150%;
     background-color:black;
-    opacity: 70%;
+    opacity: 90%;
+   
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 /* It hovers over and focuses on only that once hovered. */
 .menu:hover {
     color: hotpink; 
-    background-color:white; 
-
+    /* background-color:white;  */
+    /* background-color: rgba(147, 192, 206, 0.1); */
+    
 } 
 
 
 /* a-achor has to have its color changed within its own block, as well as the padding/spacing issue that was fixed with this */
 a {
-    color: azure;
     /* this ensures all my txt has space to not be so cluttered together  */
     padding: 24px;
 }
 
+.welcome {
+    padding-right:5%;
+    padding-left: 5%;
+    font-size: 100%;
+    font-weight: bolder;
+    
+}
+.about {
+    padding-right:5%;
+    padding-left: 5%;
+    font-size: 100%;
+    font-weight: bolder;
+}
+.contact {
+    padding-right:5%;
+    padding-left: 5%;
+    font-size: 100%;
+    font-weight: bolder;
+}
+
 /* when the mouse is hovered over the links */
-a:hover {
-    color: hotpink;
+/* a:hover {
+    color: hotpink; */
     /* background-color:white; */
     /* so the padding looks like it has a small underline */
-    padding-bottom: 8px;
+    /* padding-bottom: 8px;
+
+} */
+.welcome:hover {
+    color: hotpink;
+    background-color:rgba(147, 192, 206, 0.1);
+    transition: background-color 0.5s;
+    /* background-color:white; */
+    /* so the padding looks like it has a small underline */
+    padding-bottom: 8px; 
+    width: 10%;
+    border: 1px solid rgba(158, 201, 214, 0.2);
+}
+.about:hover {
+    color: hotpink;
+    background-color:rgba(147, 192, 206, 0.1);
+    transition: background-color 0.5s;
+    /* background-color:white; */
+    /* so the padding looks like it has a small underline */
+    padding-bottom: 8px; 
+    width: 10%;
+    border: 1px solid rgba(158, 201, 214, 0.2);
+}
+
+.contact:hover {
+    color: hotpink;
+    background-color:rgba(147, 192, 206, 0.1);
+    transition: background-color 0.5s;
+    /* background-color:white; */
+    /* so the padding looks like it has a small underline */
+    padding-bottom: 8px; 
+    width: 10%;
+    border: 1px solid rgba(158, 201, 214, 0.2);
 }
 
 /* added this to help make everthing more pleasing to the eye without being too distracting */
@@ -44,12 +97,23 @@ a:hover {
     padding: 5px;
     text-align: center;
     /* But this looks more pleasing to the eyes */
-    color:rgba(147, 192, 206, 0.9);
+    color:rgba(219, 255, 225, 0.9);
     font-size: 25px;
     /* THIS MAKES IT SO THE TEXT WONT BE AFFECTED BY A SEMI TRANSULENT BACKGROUND COLOR! Better than  */
     background: rgba(6, 1, 43, 0.5);
+
 }
 
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  height:auto;
+}
+ li {
+    padding:10px;
+ }
 /* created the continued background to make it more pleasing to the eyes */
 .hackerbanner {
     float:center;
@@ -67,7 +131,7 @@ a:hover {
     font-weight: bolder;
     color: azure;
     text-shadow: 3px 3px gray;
-    background-color: rgba(126, 243, 225, 0.3); 
+    background-color: rgba(126, 243, 225, 0.15); 
     background-repeat: repeat;
 }
 
@@ -656,7 +720,7 @@ a:hover {
 .menuCHH {
     padding: 10px;
     text-align: center;
-    text-emphasis-color: azure;
+    /*text-emphasis-color: azure; */
     font-size: 30px;
     background-color:black;
     opacity: 70%;
@@ -668,7 +732,7 @@ a:hover {
 
 .menuCHH:hover {
     color: hotpink; 
-    background-color:white; 
+   /* background-color:white; */ 
     /* so the padding looks like it has a small underline */
      padding-bottom: 8px;
 }
