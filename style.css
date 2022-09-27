@@ -140,8 +140,13 @@ a {
     color:linen; 
     text-align: center;
     font-size: 25px;
-    background-color:rgba(6, 1, 43, 0.66);
+    background-color:rgba(33, 29, 66, 0.66);
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 1%;
+    border: 3px solid rgba(158, 201, 214, 0.2);
+    border-radius: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
 }
 
 /* simple about us add on */
