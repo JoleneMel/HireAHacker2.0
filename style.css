@@ -59,16 +59,16 @@ a {
     /* padding-bottom: 8px;
 
 } */
-.welcome:hover {
+ .welcome:hover {
     color: hotpink;
     background-color:rgba(147, 192, 206, 0.1);
-    transition: background-color 0.5s;
+    transition: background-color 0.5s; 
     /* background-color:white; */
     /* so the padding looks like it has a small underline */
-    padding-bottom: 8px; 
+     padding-bottom: 8px; 
     width: 10%;
     border: 1px solid rgba(158, 201, 214, 0.2);
-}
+} 
 .about:hover {
     color: hotpink;
     background-color:rgba(147, 192, 206, 0.1);
@@ -94,13 +94,13 @@ a {
 /* added this to help make everthing more pleasing to the eye without being too distracting */
 .header {
     /* padding is one of my fave options, more cushion for pushing! */
-    padding: 5px;
+    padding: 1px;
     text-align: center;
     /* But this looks more pleasing to the eyes */
     color:rgba(219, 255, 225, 0.9);
     font-size: 25px;
     /* THIS MAKES IT SO THE TEXT WONT BE AFFECTED BY A SEMI TRANSULENT BACKGROUND COLOR! Better than  */
-    background: rgba(6, 1, 43, 0.5);
+    /*background: rgba(6, 1, 43, 0.5);*/
 
 }
 
@@ -116,9 +116,8 @@ a {
  }
 /* created the continued background to make it more pleasing to the eyes */
 .hackerbanner {
-    float:center;
     height: 300px;
-    padding-bottom: 30px;
+    padding-bottom: .5%;
     /* to connect everything nicely to the eyes  */
     background: rgba(6, 1, 43, 0.5);
 }
@@ -132,7 +131,12 @@ a {
     color: azure;
     text-shadow: 3px 3px gray;
     background-color: rgba(126, 243, 225, 0.15); 
+    width: 80%;
     background-repeat: repeat;
+    border-radius: 40%;
+    padding-left: 5%;
+    padding-right: 5%;
+    margin-left: 5%;
 }
 
 /* wanted this to look ver out of place to draw the eye to it */
@@ -148,6 +152,7 @@ a {
     padding-left: 10%;
     padding-right: 10%;
 }
+
 
 /* simple about us add on */
 .about_US {
