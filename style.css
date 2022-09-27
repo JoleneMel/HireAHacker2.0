@@ -1,7 +1,17 @@
+
+#overlay {
+    background-color:rgba(0, 0, 0, 0.5) !important;
+    background-size: 100%;
+    background-repeat: repeat-y;
+
+}
+
 .home_Contact {
+    
     background-image: url("tech-wallpaper2.0.1.png");
     background-repeat: repeat-y;
     background-size: 100%;
+    margin:0;
 }
 
 /* menu style styles*/
