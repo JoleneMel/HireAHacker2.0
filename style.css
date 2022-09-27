@@ -3,7 +3,7 @@
     background-color:rgba(0, 0, 0, 0.5) !important;
     background-repeat: repeat-y !important;
     background-repeat: repeat-x;
-    background-size: 200%;
+    background-size: 100%;
 
 }
 
@@ -252,7 +252,7 @@ a {
 /* services section */
 .servicesSB {
     font-size: 20px;
-    height: 445px;
+    height: 465px;
     border: 5px dotted hotpink;
     margin: 1px;
     padding:25px;
@@ -278,7 +278,7 @@ a {
 
 #profile_CLK {
     /* background-image: url("$p@mB0T.png"); */
-    height: 400px;
+    height: 360px;
     border: 5px dotted rgb(0, 207, 28);
     background-color:  rgba(13, 90, 6, 0.5); 
 }
@@ -311,12 +311,15 @@ a {
 .infoCLK {
     float: right;
     text-align: center;
-    font-size: 18.5px;
-    height: 350px;
     border: 5px dotted rgb(0, 207, 28);
     margin: 1px;
     padding:25px;
     background-color: rgba(13, 90, 6, 0.5); 
+    font-size: 20px;
+    height: 370px;
+
+
+  
 }
 
 .rowCLK {
